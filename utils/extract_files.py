@@ -2,30 +2,15 @@
 This file aims to decompress files in the latest release id
 """
 import os
-import gzip
+import subprocess
 from pathlib import Path
 from semantic_scholar_apis.dataset_release_ids import get_latest_release_id
-from tqdm import tqdm
 
 
 def extract_file(input_file: str, output_file: str):
     # Get the uncompressed file size
-    with gzip.open(input_file, 'rb') as f:
-        uncompressed_size = f.read()
-
-    # Create a progress bar with the uncompressed size
-    with tqdm(total=len(uncompressed_size), unit='B', unit_scale=True, desc='Decompressing', ncols=80) as pbar:
-        with gzip.open(input_file, 'rb') as f_in:
-            with open(output_file, 'wb') as f_out:
-                # Decompress and write to the output file in chunks
-                chunk_size = 1024
-                while True:
-                    chunk = f_in.read(chunk_size)
-                    if not chunk:
-                        break
-                    f_out.write(chunk)
-                    pbar.update(len(chunk))
-
+    print(f"File {input_file} extraction started.")
+    subprocess.run(['gzip', '-c', input_file, '>', output_file], shell=True)
     print(f"File {input_file} decompressed successfully.")
 
 
