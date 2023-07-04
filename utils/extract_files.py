@@ -4,24 +4,25 @@ This file aims to decompress files in the latest release id
 import os
 import subprocess
 from pathlib import Path
-from semantic_scholar_apis.dataset_release_ids import get_latest_release_id
 
 
 def extract_file(input_file: str, output_file: str):
     # Get the uncompressed file size
     print(f"File {input_file} extraction started.")
-    subprocess.run(['gzip', '-c', input_file, '>', output_file], shell=True)
+    command = ['gzip', '-dk', input_file, output_file]
+    process = subprocess.run(command, capture_output=True)
+    print("Return Code: ", process.returncode)
+    print("Stdout: ", process.stdout)
     print(f"File {input_file} decompressed successfully.")
 
 
 if __name__ == '__main__':
-    og_path = "/home/ubuntu/mypetalibrary/semantic-scholar"
-    release_id = get_latest_release_id()
-    source_path = f"{og_path}/{release_id}/compressed"
-    destination_path = f"{og_path}/{release_id}/extracted"
+    release_id = '2023-05-16'
+    dataset = 'citations'  # ["s2orc", "papers", "abstracts", "authors", "citations"]
+    source_path = f"/home/ubuntu/mypetalibrary/semantic-scholar/{release_id}/{dataset}/compressed"
+    destination_path = f"/home/ubuntu/mypetalibrary/semantic-scholar/{release_id}/{dataset}/extracted"
     Path(destination_path).mkdir(parents=True, exist_ok=True)
     files = os.listdir(source_path)
-
     for file in files:
         inp_file = f"{source_path}/{file}"
         mod_file = file.split(".")[0]

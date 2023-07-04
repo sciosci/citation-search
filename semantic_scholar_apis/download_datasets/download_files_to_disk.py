@@ -4,6 +4,7 @@ import urllib.request
 from tqdm import tqdm
 from pathlib import Path
 
+
 def get_download_links_of_papers(release_id: str, dataset: str):
     url = f'https://api.semanticscholar.org/datasets/v1/release/{release_id}/dataset/{dataset}/'
     key = os.environ.get('SemanticScholarApiKey')
@@ -31,7 +32,7 @@ def progress_hook(progress):
 
 if __name__ == '__main__':
     release_id = '2023-05-16'
-    dataset = 'papers'  # ["s2orc", "papers"]
+    dataset = 'abstracts'  # ["s2orc", "papers", "abstracts", "authors", "citations"]
     links = get_download_links_of_papers(release_id=release_id, dataset=dataset)
     peta_lib_dir = f"/home/ubuntu/mypetalibrary/semantic-scholar/{release_id}/{dataset}/compressed"
     Path(peta_lib_dir).mkdir(parents=True, exist_ok=True)
