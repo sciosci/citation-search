@@ -18,7 +18,7 @@ def extract_file(input_file: str, output_file: str):
 
 if __name__ == '__main__':
     release_id = '2023-05-16'
-    dataset = 'citations'  # ["s2orc", "papers", "abstracts", "authors", "citations"]
+    dataset = 'papers'  # ["s2orc", "papers", "abstracts", "authors", "citations"]
     source_path = f"/home/ubuntu/mypetalibrary/semantic-scholar/{release_id}/{dataset}/compressed"
     destination_path = f"/home/ubuntu/mypetalibrary/semantic-scholar/{release_id}/{dataset}/extracted"
     Path(destination_path).mkdir(parents=True, exist_ok=True)
