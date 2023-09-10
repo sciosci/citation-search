@@ -1,0 +1,1 @@
+watch -n 1 curl -XGET -u admin:admin "http://localhost:9200/_cat/thread_pool?v"
