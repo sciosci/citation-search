@@ -1,3 +1,4 @@
+import gzip
 import psycopg2
 import time
 from psycopg2.extras import RealDictCursor
@@ -76,6 +77,8 @@ def bulk_upload_records(records: list):
         bulk_data += f'{json.dumps(doc)}\n'
 
     headers = {'Content-Type': 'application/json'}
+    # headers = {'Content-Type': 'application/gzip'}
+    # bulk_data = gzip.compress(bytes(bulk_data, encoding='utf-8'))
 
     # Insert the data using the OpenSearch bulk API
     response = requests.post(f'{os_url}_bulk', auth=HTTPBasicAuth('admin', 'admin'),
@@ -109,32 +112,41 @@ def get_records_from_db_into_one_entry(offset: int):
                 cleaned_rows.append(new_row)
         except Exception as exc:
             logging.warning(f"Error in title :{title}: {exc}", exc_info=True)
+            continue
     end = time.perf_counter()
     logging.warning(f"Successfully filtered {len(cleaned_rows)} in {end - start} seconds")
     return cleaned_rows
 
 
-if __name__ == "__main__":
+def get_threadpool_stats():
+    # GET _cat / thread_pool?v
+    os_url = 'http://localhost:9200'
+    query = f"{os_url}/_cat/thread_pool?v"
+    response = requests.post(query, auth=HTTPBasicAuth('admin', 'admin'))
+    logging.warning(f"{response}")
 
+
+if __name__ == "__main__":
     deploy_model()
     # deploy_model_using_client()
     start = 0
-    total = 1000000
-    # total = 96873957
+    # total = 20000
+    total = 96873957
     offsets = list()
     total_entries = 0
     start_time = time.perf_counter()
+    cores = 15
     for i in range(start, total + 1, 3000):
         offsets.append(i)
-        if len(offsets) == 20 or i + 3000 > total:
+        if len(offsets) == cores or i + 3000 > total:
             # Fetch cleaned rows
-            with multiprocessing.Pool(processes=22) as pool:
+            with multiprocessing.Pool(processes=cores) as pool:
                 cleaned_rows = pool.map(get_records_from_db_into_one_entry, offsets)
             # Insert cleaned rows
-            with multiprocessing.Pool(processes=22) as pool:
+            with multiprocessing.Pool(processes=cores) as pool:
                 # pool.map(bulk_upload_using_client, cleaned_rows)
                 pool.map(bulk_upload_records, cleaned_rows)
-            sleep(10)
+            sleep(5)
 
             curr_entries = sum(len(inner_list) for inner_list in cleaned_rows)
             total_entries += curr_entries
@@ -143,7 +155,8 @@ if __name__ == "__main__":
                 f"records, with current last offset {i}")
             offsets = []
             cleaned_rows = []
-            sleep(10)
+            sleep(20)
     end_time = time.perf_counter()
     logging.warning(
         f"Total time taken from start to end is {end_time - start_time} seconds to insert {total_entries} records")
+
