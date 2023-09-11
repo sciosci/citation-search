@@ -10,8 +10,6 @@ import requests
 from requests.auth import HTTPBasicAuth
 import logging
 import multiprocessing
-from opensearchpy import OpenSearch
-from opensearchpy.helpers import bulk
 
 logging.basicConfig(filename='logs/ingest_vector.log', filemode='a', format='%(name)s - %(levelname)s - %(message)s')
 
@@ -30,8 +28,7 @@ query_for_title_abstract = Template(
             FROM citation_abstract cat
                      JOIN citation_papers_meta cpm on cat.corpus_id = cpm.corpus_id
             group by
-                cat.corpus_id,
-                cpm.title
+                cat.corpus_id
             LIMIT 3000
             OFFSET $offset ;
     ''')
@@ -44,24 +41,6 @@ def deploy_model():
     headers = {'Content-Type': 'application/json'}
     response = requests.post(query, auth=HTTPBasicAuth('admin', 'admin'), headers=headers)
     sleep(10)
-
-
-def bulk_upload_using_client(records: list):
-    auth = ('admin', 'admin')
-    client = OpenSearch(
-        hosts=[{'host': 'localhost', 'port': 9200}],
-        http_compress=True,
-        http_auth=auth
-    )
-    index_name = 'citation_store_with_title_and_abstract'
-    bulk_data = []
-    for doc in records:
-        doc["_id"] = doc.get('corpus_id')
-        doc["_index"] = index_name
-        bulk_data.append(doc)
-
-    success, failed = bulk(client, bulk_data)
-    logging.warning(f"Success: {success}; Failed: {failed}")
 
 
 def bulk_upload_records(records: list):
@@ -129,13 +108,13 @@ def get_threadpool_stats():
 if __name__ == "__main__":
     deploy_model()
     # deploy_model_using_client()
-    start = 0
+    start = 3012000
     # total = 20000
     total = 96873957
     offsets = list()
     total_entries = 0
     start_time = time.perf_counter()
-    cores = 15
+    cores = 25
     for i in range(start, total + 1, 3000):
         offsets.append(i)
         if len(offsets) == cores or i + 3000 > total:
@@ -146,8 +125,6 @@ if __name__ == "__main__":
             with multiprocessing.Pool(processes=cores) as pool:
                 # pool.map(bulk_upload_using_client, cleaned_rows)
                 pool.map(bulk_upload_records, cleaned_rows)
-            sleep(5)
-
             curr_entries = sum(len(inner_list) for inner_list in cleaned_rows)
             total_entries += curr_entries
             logging.warning(
