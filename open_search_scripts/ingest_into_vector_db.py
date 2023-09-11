@@ -1,4 +1,3 @@
-import gzip
 import psycopg2
 import time
 from psycopg2.extras import RealDictCursor
@@ -32,6 +31,17 @@ query_for_title_abstract = Template(
             LIMIT 3000
             OFFSET $offset ;
     ''')
+query_for_title_abstract_with_cid = Template(
+    '''SELECT cat.corpus_id,
+                   cat.abstract,
+                   cpm.title
+            FROM citation_abstract cat
+                     JOIN citation_papers_meta cpm on cat.corpus_id = cpm.corpus_id
+            WHERE cat.corpus_id>=$cid
+            group by
+                cat.corpus_id
+            LIMIT 3000;
+    ''')
 
 
 def deploy_model():
@@ -41,6 +51,15 @@ def deploy_model():
     headers = {'Content-Type': 'application/json'}
     response = requests.post(query, auth=HTTPBasicAuth('admin', 'admin'), headers=headers)
     sleep(10)
+
+
+def get_cids(idx):
+    endpoint = 'http://127.0.0.1:6001/corpus_ids'
+    params = {'idx': idx}
+    response = requests.get(endpoint, params=params)
+    response_dict = json.loads(response.text)
+    cid = response_dict.get('cid')
+    return cid
 
 
 def bulk_upload_records(records: list):
@@ -74,6 +93,9 @@ def get_records_from_db_into_one_entry(offset: int):
     with psycopg2.connect(**conn_params) as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cursor:
             cursor.execute(query_for_title_abstract.substitute(offset=offset))
+            # Instead of offset get the corpus_id no
+            cid = get_cids(idx=offset)
+            cursor.execute(query_for_title_abstract_with_cid.substitute(cid=cid))
             rows = cursor.fetchall()
     end = time.perf_counter()
     logging.warning(f"Successfully fetched {len(rows)} rows in {end - start} seconds")
@@ -136,4 +158,3 @@ if __name__ == "__main__":
     end_time = time.perf_counter()
     logging.warning(
         f"Total time taken from start to end is {end_time - start_time} seconds to insert {total_entries} records")
-
