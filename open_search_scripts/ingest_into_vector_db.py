@@ -27,7 +27,8 @@ query_for_title_abstract = Template(
             FROM citation_abstract cat
                      JOIN citation_papers_meta cpm on cat.corpus_id = cpm.corpus_id
             group by
-                cat.corpus_id
+                cat.corpus_id,
+                cpm.title
             LIMIT 3000
             OFFSET $offset ;
     ''')
@@ -39,7 +40,8 @@ query_for_title_abstract_with_cid = Template(
                      JOIN citation_papers_meta cpm on cat.corpus_id = cpm.corpus_id
             WHERE cat.corpus_id>=$cid
             group by
-                cat.corpus_id
+                cat.corpus_id,
+                cpm.title
             LIMIT 3000;
     ''')
 
@@ -92,7 +94,7 @@ def get_records_from_db_into_one_entry(offset: int):
     start = time.perf_counter()
     with psycopg2.connect(**conn_params) as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cursor:
-            cursor.execute(query_for_title_abstract.substitute(offset=offset))
+            # cursor.execute(query_for_title_abstract.substitute(offset=offset))
             # Instead of offset get the corpus_id no
             cid = get_cids(idx=offset)
             cursor.execute(query_for_title_abstract_with_cid.substitute(cid=cid))
@@ -130,7 +132,7 @@ def get_threadpool_stats():
 if __name__ == "__main__":
     deploy_model()
     # deploy_model_using_client()
-    start = 3012000
+    start = 4134000
     # total = 20000
     total = 96873957
     offsets = list()
