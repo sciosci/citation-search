@@ -132,9 +132,9 @@ def get_threadpool_stats():
 if __name__ == "__main__":
     deploy_model()
     # deploy_model_using_client()
-    start = 4134000
+    start = 0
     # total = 20000
-    total = 96873957
+    total = 10000000
     offsets = list()
     total_entries = 0
     start_time = time.perf_counter()
