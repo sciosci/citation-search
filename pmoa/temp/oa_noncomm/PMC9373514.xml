@@ -1,0 +1,1619 @@
+<!DOCTYPE article
+        PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN"
+        "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"
+         article-type="research-article" dtd-version="1.3"><?properties open_access?>
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+        <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">Braz J Anesthesiol</journal-id>
+            <journal-id journal-id-type="iso-abbrev">Braz J Anesthesiol</journal-id>
+            <journal-title-group>
+                <journal-title>Brazilian Journal of Anesthesiology</journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">0104-0014</issn>
+            <issn pub-type="epub">2352-2291</issn>
+            <publisher>
+                <publisher-name>Elsevier</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="pmid">34963618</article-id>
+            <article-id pub-id-type="pmc">PMC9373514</article-id>
+            <article-id pub-id-type="pii">S0104-0014(21)00424-3</article-id>
+            <article-id pub-id-type="doi">10.1016/j.bjane.2021.12.004</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Original Investigation</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Airway management in general anesthesia for endovascular treatment of cerebral
+                    arteriovenous malformation: a retrospective observational study
+                </article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" id="au0001">
+                    <name>
+                        <surname>S&#x000fc;zer</surname>
+                        <given-names>Mehmet An&#x00131;l</given-names>
+                    </name>
+                    <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0002">
+                    <name>
+                        <surname>&#x000d6;zhan</surname>
+                        <given-names>Mehmet &#x000d6;zg&#x000fc;r</given-names>
+                    </name>
+                    <xref rid="aff0001" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0003">
+                    <name>
+                        <surname>&#x000c7;aparlar</surname>
+                        <given-names>Ceyda &#x000d6;zhan</given-names>
+                    </name>
+                    <xref rid="aff0002" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0004">
+                    <name>
+                        <surname>E&#x0015f;kin</surname>
+                        <given-names>Mehmet Burak</given-names>
+                    </name>
+                    <xref rid="aff0003" ref-type="aff">c</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au0005">
+                    <name>
+                        <surname>Atik</surname>
+                        <given-names>B&#x000fc;lent</given-names>
+                    </name>
+                    <email>bulent_atik@yahoo.com</email>
+                    <xref rid="aff0004" ref-type="aff">d</xref>
+                    <xref rid="cor0001" ref-type="corresp">&#x0204e;</xref>
+                </contrib>
+                <aff id="aff0001"><label>a</label>Private &#x000c7;ankaya Hospital, Department of Anesthesiology and
+                    Reanimation, Ankara, Turkey
+                </aff>
+                <aff id="aff0002"><label>b</label>University of Medical Science, Y&#x00131;ld&#x00131;r&#x00131;m Beyaz&#x00131;t
+                    Training and Research Hospital, Department of Anesthesiology and Reanimation, Ankara, Turkey
+                </aff>
+                <aff id="aff0003"><label>c</label>University of Medical Science, G&#x000fc;lhane Training and Research
+                    Hospital, Department of Anesthesiology and Reanimation, Ankara, Turkey
+                </aff>
+                <aff id="aff0004"><label>d</label>Bal&#x00131;kesir University Medical Faculty, Department of
+                    Anesthesiology and Reanimation, Bal&#x00131;kesir, Turkey
+                </aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="cor0001"><label>&#x0204e;</label>Corresponding author.
+                    <email>bulent_atik@yahoo.com</email>
+                </corresp>
+            </author-notes>
+            <pub-date pub-type="pmc-release">
+                <day>25</day>
+                <month>12</month>
+                <year>2021</year>
+            </pub-date><!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+            <pub-date pub-type="collection">
+                <season>May-Jun</season>
+                <year>2022</year>
+            </pub-date>
+            <pub-date pub-type="epub">
+                <day>25</day>
+                <month>12</month>
+                <year>2021</year>
+            </pub-date>
+            <volume>72</volume>
+            <issue>3</issue>
+            <fpage>359</fpage>
+            <lpage>364</lpage>
+            <history>
+                <date date-type="received">
+                    <day>4</day>
+                    <month>8</month>
+                    <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                    <day>11</day>
+                    <month>12</month>
+                    <year>2021</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>&#x000a9; 2022 Sociedade Brasileira de Anestesiologia. Published by Elsevier
+                    Editora Ltda.
+                </copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Sociedade Brasileira de Anestesiologia</copyright-holder>
+                <license>
+                    <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining"
+                                     content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/
+                    </ali:license_ref>
+                    <license-p>This is an open access article under the CC BY-NC-ND license
+                        (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+                    </license-p>
+                </license>
+            </permissions>
+            <abstract id="abs0001">
+                <sec>
+                    <title>Background and objective</title>
+                    <p>This retrospective and observational study aimed to retrospectively evaluate the use of the
+                        endotracheal tube (ETT) and the Laryngeal Mask Airway (LMA) for the airway management with
+                        respect to airway safety, hemodynamic stability, adverse respiratory events, and recovery
+                        characteristics in patients who underwent endovascular treatment (EVT) for cerebrovascular
+                        arteriovenous malformation under general anesthesia between&#x000a0;2011 and&#x000a0;2018.
+                    </p>
+                </sec>
+                <sec>
+                    <title>Methods</title>
+                    <p>The study included data from the patient's electronic medical records and anesthesia files. The
+                        primary outcome measure was the incidence of hemodynamic disturbances and respiratory adverse
+                        events during airway management. The secondary outcome measure was the comparison of recovery
+                        characteristics.
+                    </p>
+                </sec>
+                <sec>
+                    <title>Results</title>
+                    <p>The airway was secured using ETT in&#x000a0;41&#x000a0;patients and LMA in&#x000a0;39&#x000a0;patients.
+                        Airway safety was established in all patients without a complication throughout the procedure.
+                        Mean arterial blood pressure and heart rate were increased to&#x000a0;&#x0003e; 20% of baseline
+                        levels at intubation and extubation periods in more patients in the ETT group than the LMA group
+                        (27&#x000a0;vs.&#x000a0;3; <italic>p</italic>&#x000a0;=&#x000a0;0.07, and 11&#x000a0;vs.&#x000a0;2; <italic>
+                            p</italic>&#x000a0;=&#x000a0;0.021). Respiratory adverse events including straining and
+                        coughing were observed in ten patients in the ETT group but only in one patient in the LMA group
+                        (<italic>p</italic>&#x000a0;=&#x000a0;0.013). Time to extubation, to neurological assessment,
+                        and to discharge from the angiography unit were similar (<italic>p</italic> &#x0003e; 0.05).
+                    </p>
+                </sec>
+                <sec>
+                    <title>Conclusion</title>
+                    <p>It was concluded that LMA provided sufficient airway safety as with ETT and may be used as an
+                        alternative to ETT for EVTs under general anesthesia.
+                    </p>
+                </sec>
+            </abstract>
+            <kwd-group id="keys0001">
+                <title>KEYWORDS</title>
+                <kwd>Anesthesia, general</kwd>
+                <kwd>Arteriovenous malformations, cerebral</kwd>
+                <kwd>Laryngeal masks</kwd>
+                <kwd>Intubation, intratracheal</kwd>
+                <kwd>Radiology, interventional</kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="sec0001">
+            <title>Introduction</title>
+            <p id="para0005">Endovascular Treatment (EVT) has been increasingly used in the past twenty years as a sole
+                therapy or more frequently, as a component of the multimodal therapy for the treatment of brain
+                Arteriovenous Malformations (AVMs) (1). The aim of EVT is to reduce the size and blood flow of the nidus
+                of AVM to occlude its feeders via the application of Ethylene-Vinyl Alcohol Copolymer (EVOH) or Onyx
+                through a microcatheter.
+                <xref rid="bib0001" ref-type="bibr">
+                    <sup>1</sup>
+                </xref>
+                <sup>,</sup>
+                <xref rid="bib0002" ref-type="bibr">
+                    <sup>2</sup>
+                </xref>
+                The anesthetic management of EVT for AVM involves general principles of the interventional
+                neuroradiology (INR), which have been adopted mainly from the traditional neurosurgery: a)&#x000a0;providing
+                an immobile patient, b)&#x000a0;maintaining hemodynamic stability, c) manipulation of arterial blood
+                pressure (ABP) as necessary, d)&#x000a0;smooth emergence from the anesthesia, e)&#x000a0;early recovery
+                as shown by a neurological assessment, and f)&#x000a0;treatment of complications.
+                <xref rid="bib0003" ref-type="bibr">
+                    <sup>3</sup>
+                </xref>
+                <sup>,</sup>
+                <xref rid="bib0004" ref-type="bibr">
+                    <sup>4</sup>
+                </xref>
+            </p>
+            <p id="para0006">Among the various anesthetic techniques such as conscious sedation, general anesthesia
+                (GA), and neurolept anesthesia, GA is the most commonly used technique because it ensures both
+                immobilization and airway safety during the procedure. Endotracheal intubation has been generally used
+                for airway management in GA.<xref rid="bib0005" ref-type="bibr">5</xref>, <xref rid="bib0006"
+                                                                                                ref-type="bibr">6</xref>, <xref
+                        rid="bib0007" ref-type="bibr">7</xref>, <xref rid="bib0008" ref-type="bibr">8</xref>, <xref
+                        rid="bib0009" ref-type="bibr">9</xref>, <xref rid="bib0010" ref-type="bibr">10</xref> Although
+                supraglottic airway devices are well-known tools for the airway management in GA, their use in the
+                interventional neuroradiological procedures is limited. Only four reports exist in the literature.<xref
+                        rid="bib0011" ref-type="bibr">11</xref>, <xref rid="bib0012" ref-type="bibr">12</xref>, <xref
+                        rid="bib0013" ref-type="bibr">13</xref>,
+                <xref rid="bib0014" ref-type="bibr">14</xref>
+            </p>
+            <p id="para0007">Endovascular treatments were begun for cerebrovascular aneurysm in&#x000a0;2008 and for
+                arteriovenous malformation in&#x000a0;2011 in our hospital. We have been using both the endotracheal
+                tube (ETT) and the Laryngeal Mask Airway (LMA) for the airway management in procedures under GA.
+            </p>
+            <p id="para0008">This study aimed to retrospectively evaluate the use of ETT and LMA for the airway
+                management with respect to airway safety, hemodynamic stability, adverse respiratory events, and
+                recovery characteristics in patients who underwent endovascular treatment for cerebrovascular
+                arteriovenous malformation under general anesthesiabetween&#x000a0;2011 and&#x000a0;2018.
+            </p>
+        </sec>
+        <sec id="sec0002">
+            <title>Methods</title>
+            <p id="para0009">This observational and retrospective study was conducted in a tertiary hospital from
+                January&#x000a0;2011 to April&#x000a0;2018. After obtaining hospitals ethic committee approval, data
+                were retrospectively collected from the hospital's computerized data base (MedData<sup>TM</sup> HBYS),
+                medical and anesthesia files of all adult patients who underwent elective endovascular treatment for
+                uncomplicated cerebrovascular AVM by a single neuroradiologist in the INR unit. The study followed the
+                Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) guidelines.<xref
+                        rid="bib0015" ref-type="bibr">15</xref>, <xref rid="bib0016" ref-type="bibr">16</xref>, <xref
+                        rid="bib0017" ref-type="bibr">17
+                </xref> Obtaining informed consent was waived with respect to the retrospective design of the study.
+            </p>
+            <p id="para0010">The inclusion criteria were as follows: elective EVT for cerebral AVM under general
+                anesthesia and American Society of Anesthesiologists (ASA) physical status&#x000a0;I&#x02013;II patients
+                without neurological deficits. Exclusion criteria were a history of cerebrovascular surgery,
+                neurological impairment before the procedure, difficult airway management, insufficient data, and lost
+                to follow-up in the perioperative period.
+            </p>
+            <sec id="sec0003">
+                <title>Anesthetic technique</title>
+                <p id="para0011">All patients were examined by the anesthesiologists before the intervention. A
+                    large-bore peripheral venous cannula was inserted in the forearm, and 8&#x02013;10&#x000a0;mL.kg<sup>
+                        &#x02212;1
+                    </sup> saline or Ringer's lactate was given for prehydration during the fasting period, which lasted
+                    six hours for light meals and two hours for clear fluids. Patients were monitored with
+                    electrocardiography (ECG), pulse oximetry, and noninvasive blood pressure (NIBP) in the INR unit.
+                    Baseline vital parameters were recorded. An arterial catheter was placed in the left radial artery
+                    after local anesthetic infiltration to monitor arterial blood pressure and to take blood samples for
+                    activated clotting time (ACT) measurement.
+                </p>
+                <p id="para0012">GA was induced using&#x000a0;2&#x02013;2.5&#x000a0;mg<sup>&#x02212;1</sup>kg<sup>
+                    &#x02212;1
+                </sup> intravenous (IV) propofol and 1&#x02013;2&#x000a0;&#x000b5;g<sup>&#x02212;1</sup>kg<sup>&#x02212;1</sup> fentanyl.
+                    0.6&#x000a0;mg<sup>&#x02212;1</sup>kg<sup>&#x02212;1</sup> rocuronium was given to facilitate
+                    endotracheal intubation or LMA insertion, and 1.5&#x000a0;mg<sup>&#x02212;1</sup>kg<sup>&#x02212;1
+                    </sup> lidocaine (2%) was given to suppress airway reflexes. After three minutes of mask ventilation
+                    with 100%&#x000a0;oxygen, an ETT (ID&#x000a0;6.5&#x02013;8.0) was placed after direct laryngoscopy
+                    or a LMA (--&#x000a0;no 3&#x02013;5) was inserted (LMA-Classic&#x02122;, Intavent Orthofix Ltd.,
+                    Maidenhead, Berkshire, United Kingdom). LMA was inserted using the classical method described by
+                    Brain.
+                    <xref rid="bib0018" ref-type="bibr">
+                        <sup>18</sup>
+                    </xref>
+                    Volume inflated in the pneumatic cuff of the LMA was&#x000a0;15&#x000a0;mL for size&#x000a0;3, 20&#x000a0;mL
+                    for size&#x000a0;4, and 30&#x000a0;mL for size&#x000a0;5 to minimize the pressure on the pharynx.
+                    Patients were ventilated using positive pressure ventilation (PPV). Ventilator settings were
+                    adjusted to keep the end tidal CO<sub>2</sub> level between&#x000a0;25 and 29&#x000a0;mmHg (mild
+                    hypocapnia) and the peak airway pressure lower than&#x000a0;20&#x000a0;cmH<sub>2</sub>O.
+                </p>
+                <p id="para0013">A total intravenous anesthesia (TIVA) technique using remifentanil and propofol
+                    infusions was used for the maintenance of anesthesia. Remifentanil was given with a constant
+                    infusion rate (2&#x000a0;&#x000b5;gkg<sup>&#x02212;1</sup>h<sup>&#x02212;1</sup>). Propofol infusion
+                    rate was changed in a range between&#x000a0;3&#x02013;6&#x000a0;&#x000b5;g.kg<sup>&#x02212;1</sup>h<sup>
+                        &#x02212;1
+                    </sup> to maintain mean arterial pressure (MAP) between&#x000a0;60 and 70&#x000a0;mmHg until glue
+                    injection and between&#x000a0;20% and 30% below the baseline MAP during the glue injection to slow
+                    the blood circulation in the injection area.
+                </p>
+                <p id="para0014">The body temperature was monitored, and a forced air warming device was used to prevent
+                    hypothermia. An urine catheter was placed, and urine output was monitored. The baseline activated
+                    clotting time (ACT) was measured, and heparin 100&#x000a0;U.kg<sup>&#x02212;1</sup> was given as a
+                    loading dose, and an infusion was started at a rate of&#x000a0;15&#x000a0;U.kg<sup>&#x02212;1</sup>h<sup>
+                        &#x02212;1
+                    </sup> to maintain the ACT between&#x000a0;2 and 3&#x000a0;times the normal rate after the femoral
+                    artery cannulation. A total of&#x000a0;1200&#x000a0;mg N-acetylcysteine and 50&#x000a0;mg ranitidine
+                    were given to prevent contrast-induced nephropathy and for gastric protection. After completion of
+                    EVT, TIVA and heparin infusions were discontinued. Ventilation was controlled with 100% oxygen until
+                    the return of spontaneous ventilation. IV&#x000a0;1.5&#x000a0;mg.kg<sup>&#x02212;1</sup> lidocaine
+                    was given to prevent airway reflexes during extubation, and 40&#x000a0;&#x000b5;g.kg<sup>
+                        &#x02212;1
+                    </sup> neostigmine and 20&#x000a0;&#x000b5;g.kg<sup>&#x02212;1</sup> atropine were given for the
+                    reversal of the neuromuscular blocking agent in both groups. ETT or LMA was removed when spontaneous
+                    respiration resumed (tidal volume&#x000a0;&#x0003e; 4&#x000a0;mL.kg<sup>&#x02212;1</sup>) and when
+                    consciousness returned.
+                </p>
+                <p id="para0015">The following recovery and discharge times were recorded: time to extubation or to
+                    removal of LMA, time to the neurological assessment, and time to discharge from the angiography unit
+                    to the intensive care unit (ICU). The neurological status of the patient was assessed by the
+                    neuroradiologist using the Glasgow Coma Scale (GCS) who performed the EVT. Patients with stable
+                    neurological and hemodynamic status, a modified Aldrete recovery score&#x000a0;&#x0003e; 9, and a
+                    dry femoral artery puncture site were discharged from the angiography unit to the ICU.
+                </p>
+                <p id="para0016">Systolic arterial blood pressure (SAP), diastolic arterial blood pressure (DAP), mean
+                    arterial pressure (MAP), peripheral oxygen saturation (SpO<sub>2),</sub> heart rate (HR), and
+                    end-tidal CO<sub>2</sub> (etCO<sub>2</sub>) levels were monitored and recorded continuously
+                    throughout the procedure. Vital signs were recorded before induction (baseline), before
+                    (pre-intubation) and after endotracheal intubation or LMA insertion (post-intubation), after
+                    extubation or removal of LMA (post-extubation), and at&#x000a0;5&#x000a0;minutes intervals during
+                    the procedure. A bolus dose of&#x000a0;40&#x000a0;&#x000b5;g.kg<sup>&#x02212;1</sup> metoprolol was
+                    given when the MAP increased&#x000a0;&#x0003e; 20% above baseline values to avoid further increments
+                    in ABP. Respiratory adverse events and other complications were assessed and recorded throughout the
+                    procedure.
+                </p>
+                <p id="para0017">The electronic medical records, medical and anesthesia files, and intensive care unit
+                    charts were evaluated to collect data including demographic characteristics, techniques of
+                    anesthesia and airway management, hemodynamic changes after airway management and extubation,
+                    respiratory adverse events throughout the procedure, recovery and discharge times after the
+                    procedure, and the other complications related to the EVT. The records with insufficient data were
+                    excluded from the study. Only the files of patients whose EVT was performed by the same
+                    neuroradiologist, and anesthesiologists were included.
+                </p>
+                <p id="para0018">The primary outcome measures were the incidence of hemodynamic disturbance that was
+                    defined as the hemodynamic parameters which were not between&#x000a0;&#x000b1;20% of baseline values
+                    and the incidence of adverse respiratory events including laryngospasm, apnea, cough, gagging, and
+                    straining. The secondary outcome measure was the comparison of recovery times after the procedure
+                    including time to extubation, time to neurological assessment, and time to discharge from the INR
+                    unit to the ICU (min).
+                </p>
+                <p id="para0019">A power analysis was conducted to calculate sample size based on a prior study using
+                    PASS&#x000a0;13&#x000a0;software.
+                    <xref rid="bib0014" ref-type="bibr">
+                        <sup>14</sup>
+                    </xref>
+                    <sup>,</sup>
+                    <xref rid="bib0019" ref-type="bibr">
+                        <sup>19</sup>
+                    </xref>
+                    A total sample size of 72 (36&#x000a0;cases for each group) was required to detect at least&#x000a0;30%&#x000a0;difference
+                    in MAP between ETT and LMA groups with a power of&#x000a0;80% at the&#x000a0;5% significance level.
+                </p>
+            </sec>
+            <sec id="sec0004">
+                <title>Statistical analysis</title>
+                <p id="para0020">All records were analyzed for missing data. The patient who had partially missing data
+                    and was lost to follow-up after the intervention was excluded from the study. The data were analyzed
+                    using the Statistical Packages for Social Sciences for Windows version&#x000a0;11.5&#x000a0;pocket
+                    program (IBM Corp., Chicago, IL, USA). For intergroup comparisons, the Chi-Square test and Fisher's
+                    exact test were used to analyze nominal data, and the <italic>t</italic>-test for independent
+                    samples was used for quantitative data. Data were expressed as mean&#x000a0;&#x000b1;&#x000a0;SD for
+                    continuous variables and numbers, and percentages for categorical variables. The value of <italic>
+                        p
+                    </italic> &#x0003c; 0.05 was considered significant.
+                    <xref rid="bib0020" ref-type="bibr">
+                        <sup>20</sup>
+                    </xref>
+                </p>
+            </sec>
+        </sec>
+        <sec id="sec0005">
+            <title>Results</title>
+            <p id="para0021">Medical records of&#x000a0;80&#x000a0;patients were reviewed. There was no missing data and
+                all patients have completed the follow-up period that lasted&#x000a0;38&#x02013;42&#x000a0;hours (<xref
+                        rid="fig0001" ref-type="fig">Fig. 1</xref>). Two groups were identified considering the airway
+                management technique: the Endotracheal Tube group (group ETT ; n&#x000a0;=&#x000a0;41) and the Laryngeal
+                Mask Airway group (group LMA ; n&#x000a0;=&#x000a0;39). The demographic characteristics were similar
+                between the groups (<xref rid="tbl0001" ref-type="table">Table 1</xref>).
+                <fig id="fig0001">
+                    <label>Figure 1</label>
+                    <caption>
+                        <p>Flow diagram detailing participant flow through observational study.</p>
+                    </caption>
+                    <alt-text id="alt0001">Figure 1</alt-text>
+                    <graphic xlink:href="gr1"/>
+                </fig>
+                <table-wrap position="float" id="tbl0001">
+                    <label>Table 1</label>
+                    <caption>
+                        <p>Patient baseline characteristics.</p>
+                    </caption>
+                    <alt-text id="alt0002">Table 1</alt-text>
+                    <table frame="hsides" rules="groups">
+                        <thead>
+                            <tr>
+                                <th valign="top">Parameters</th>
+                                <th valign="top">Group ETT (n&#x000a0;=&#x000a0;41)</th>
+                                <th valign="top">Group LMA (n&#x000a0;=&#x000a0;39)</th>
+                                <th valign="top">
+                                    <italic>p</italic>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td valign="top">Age (years)
+                                    <xref rid="tb1fn1" ref-type="table-fn">a</xref>
+                                </td>
+                                <td valign="top">33.4 (10.3)</td>
+                                <td valign="top">34.5 (11.8)</td>
+                                <td valign="top">0.693</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">Gender (Female / Male)
+                                    <xref rid="tb1fn2" ref-type="table-fn">b</xref>
+                                </td>
+                                <td valign="top">26 / 15</td>
+                                <td valign="top">24 / 15</td>
+                                <td valign="top">0.551</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">Body Mass Index (kg.m<sup>&#x02212;2</sup>)
+                                    <xref rid="tb1fn1" ref-type="table-fn">a</xref>
+                                </td>
+                                <td valign="top">25.2 (2.3)</td>
+                                <td valign="top">25.4 (2.0)</td>
+                                <td valign="top">0.315</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">ASA physical status I / II
+                                    <xref rid="tb1fn2" ref-type="table-fn">b</xref>
+                                </td>
+                                <td valign="top">36 / 5</td>
+                                <td valign="top">33 /6</td>
+                                <td valign="top">0.803</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">Mallampati Score I / II / III
+                                    <xref rid="tb1fn2" ref-type="table-fn">b</xref>
+                                </td>
+                                <td valign="top">32 / 8 / 1</td>
+                                <td valign="top">29 / 9 / 1</td>
+                                <td valign="top">0.541</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table-wrap-foot>
+                        <fn>
+                            <p>ETT, Endotracheal Tube; LMA, Laryngeal Mask Airway; ASA, American Society of
+                                Anesthesiologists.
+                            </p>
+                        </fn>
+                    </table-wrap-foot>
+                    <table-wrap-foot>
+                        <fn id="tb1fn1">
+                            <label>a</label>
+                            <p id="notep0002">Data presented as mean (standard deviation).</p>
+                        </fn>
+                    </table-wrap-foot>
+                    <table-wrap-foot>
+                        <fn id="tb1fn2">
+                            <label>b</label>
+                            <p id="notep0003">Data presented as absolute number (n).</p>
+                            <p id="notep0004">
+                                <italic>p</italic> &#x0003c; 0.05 was considered as statistically significant.
+                            </p>
+                        </fn>
+                    </table-wrap-foot>
+                </table-wrap>
+            </p>
+            <sec id="sec0006">
+                <title>Primary outcome measures</title>
+                <p id="para0022">Respiratory complications related to the airway management including insufficient
+                    ventilation, desaturation, laryngospasm, or bronchospasm were not recorded. There were three periods
+                    throughout the procedure where hemodynamic changes in mean arterial blood pressure and heart rates
+                    were not&#x000a0;&#x000b1;20% of baseline values: a)&#x000a0;After the induction of GA
+                    (pre-intubation), b)&#x000a0;After airway management (post-intubation), and c)&#x000a0;After
+                    extubation (post-extubation).
+                </p>
+                <p id="para0023">The pre-intubation MAP levels were lower than&#x000a0;20%&#x000a0;of baseline values in&#x000a0;21&#x000a0;patients
+                    in the ETT group and in&#x000a0;19&#x000a0;patients in the LMA group (<italic>p</italic>&#x000a0;=&#x000a0;0.771).
+                    Heart rate was reduced to&#x000a0;&#x0003c; 20% of baseline levels in&#x000a0;11&#x000a0;patients in
+                    the ETT group and in&#x000a0;12&#x000a0;patients in the LMA group before the intubation (<italic>
+                        p</italic>&#x000a0;=&#x000a0;0.563) (<xref rid="tbl0001" ref-type="table">Table 1</xref>). The
+                    pre-intubation MAP levels and heart rates were reduced to&#x000a0;&#x0003c; 20% of baseline values
+                    in similar number of patients in both groups (<italic>p</italic>&#x000a0;=&#x000a0;0.771
+                    and <italic>p</italic>&#x000a0;=&#x000a0;0.563, respectively) (<xref rid="tbl0001" ref-type="table">
+                        Table 1</xref>). The post-intubation MAP levels and heart rates were increased to&#x000a0;&#x0003e;
+                    20% of baseline values in significantly more patients in the ETT group than in the LMA group (27 vs.
+                    3; <italic>p</italic>&#x000a0;=&#x000a0;0.007 and 29 vs. 9; <italic>p</italic>&#x000a0;=&#x000a0;0.002,
+                    respectively) (<xref rid="tbl0002" ref-type="table">Table 2</xref>). Similarly, the post-extubation
+                    MAP levels and heart rates were increased to&#x000a0;&#x0003e; 20% of baseline values in more
+                    patients in the ETT group compared to the LMA group (11 vs. 2; <italic>p</italic>&#x000a0;=&#x000a0;0.021
+                    and 23 vs. 6; <italic>p</italic>&#x000a0;=&#x000a0;0.002, respectively) (<xref rid="tbl0002"
+                                                                                                   ref-type="table">
+                        Table 2</xref>). Hemodynamic disturbances as elevation in MAP were managed successfully using
+                    metoprolol.
+                    <table-wrap position="float" id="tbl0002">
+                        <label>Table 2</label>
+                        <caption>
+                            <p>Comparison of changes in mean arterial blood pressure and heart rate between groups.</p>
+                        </caption>
+                        <alt-text id="alt0003">Table 2</alt-text>
+                        <table frame="hsides" rules="groups">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" align="left" valign="top">Parameters</th>
+                                    <th valign="top">ETT / LMA</th>
+                                    <th valign="top">ETT / LMA</th>
+                                    <th valign="top">ETT / LMA</th>
+                                    <th valign="top"/>
+                                </tr>
+                                <tr>
+                                    <th valign="top">&#x000b1; 20% of baseline</th>
+                                    <th valign="top">&#x0003c; 20% of baseline</th>
+                                    <th valign="top">&#x0003e; 20% of baseline</th>
+                                    <th valign="top">
+                                        <italic>p</italic>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5" align="left" valign="top">Mean Arterial Pressure
+                                        <xref rid="tb2fn1" ref-type="table-fn">a</xref>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Preintubation</td>
+                                    <td valign="top">20 (48.8%) / 20 (51.3%)</td>
+                                    <td valign="top">21 (51.2%) / 19 (48.7%)</td>
+                                    <td valign="top">0 (0%) / 0 (0%)</td>
+                                    <td valign="top">0.771</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Postintubation</td>
+                                    <td valign="top">14 (34.1%) / 36 (92.3%)</td>
+                                    <td valign="top">0 (0%) / 0 (0%)</td>
+                                    <td valign="top">27 (65.9%) / 3 (7.7%)</td>
+                                    <td valign="top">0.007</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Postextubation</td>
+                                    <td valign="top">30 (73.2%) / 37 (94.9%)</td>
+                                    <td valign="top">0 (0%) / 0 (0%)</td>
+                                    <td valign="top">11 (26.8%) / 2 (5.1%)</td>
+                                    <td valign="top">0.021</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" align="left" valign="top">Heart Rate
+                                        <xref rid="tb2fn1" ref-type="table-fn">a</xref>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Preintubation</td>
+                                    <td valign="top">26 (63.4%) / 24 (61.5%)</td>
+                                    <td valign="top">11 (26.8%) / 12 (30.7%)</td>
+                                    <td valign="top">4 (9.8%) / 3 (7.6%)</td>
+                                    <td valign="top">0.563</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Postintubation</td>
+                                    <td valign="top">12 (29.2%) / 30 (76.9%)</td>
+                                    <td valign="top">0 (0%) / 0 (0%)</td>
+                                    <td valign="top">29 (70.7%) / 9 (23.1%)</td>
+                                    <td valign="top">0.002</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Postextubation</td>
+                                    <td valign="top">18 (43.9%) / 33 (84.6%)</td>
+                                    <td valign="top">0 (0%) / 0 (0%)</td>
+                                    <td valign="top">23 (56.1%) / 6 (15.4%)</td>
+                                    <td valign="top">0.002</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table-wrap-foot>
+                            <fn>
+                                <p>ETT, Endotracheal Tube; LMA, Laryngeal Mask Airway.</p>
+                            </fn>
+                        </table-wrap-foot>
+                        <table-wrap-foot>
+                            <fn id="tb2fn1">
+                                <label>a</label>
+                                <p id="notep0006">Data presented as absolute number and percentage, n (%).</p>
+                                <p id="notep0007">
+                                    <italic>p</italic> &#x0003c; 0.05 was considered as statistically significant.
+                                </p>
+                            </fn>
+                        </table-wrap-foot>
+                    </table-wrap>
+                </p>
+                <p id="para0024">A total of eleven respiratory adverse events were recorded in all patients. Straining
+                    was recorded in one patient after intubation and in another five after extubation in the ETT group
+                    compared to one patient in the LMA group after extubation (<italic>p</italic>&#x000a0;=&#x000a0;0.002).
+                    Coughing was recorded in&#x000a0;4&#x000a0;patients in the ETT group after extubation but was not
+                    recorded in the LMA group (<italic>p</italic>&#x000a0;=&#x000a0;0.001) (<xref rid="tbl0003"
+                                                                                                  ref-type="table">Table
+                        3</xref>). All respiratory adverse events were resolved spontaneously without an intervention
+                    and did not result in a further complication.
+                    <table-wrap position="float" id="tbl0003">
+                        <label>Table 3</label>
+                        <caption>
+                            <p>Comparison of recovery times and respiratory adverse events between groups.</p>
+                        </caption>
+                        <alt-text id="alt0004">Table 3</alt-text>
+                        <table frame="hsides" rules="groups">
+                            <thead>
+                                <tr>
+                                    <th valign="top">Parameters</th>
+                                    <th valign="top">Group ETT</th>
+                                    <th valign="top">Group LMA</th>
+                                    <th valign="top">
+                                        <italic>p</italic>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td valign="top">Recovery Times (min)
+                                        <xref rid="tb3fn1" ref-type="table-fn">a</xref>
+                                    </td>
+                                    <td valign="top"/>
+                                    <td valign="top"/>
+                                    <td valign="top"/>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Time to extubation</td>
+                                    <td valign="top">8.9 &#x000b1; 1.8</td>
+                                    <td valign="top">9.1 &#x000b1; 1.6</td>
+                                    <td valign="top">0.101</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Time to neurological assessment</td>
+                                    <td valign="top">12.6 &#x000b1; 2.9</td>
+                                    <td valign="top">12.8 &#x000b1; 3.0</td>
+                                    <td valign="top">0.136</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Time to discharge</td>
+                                    <td valign="top">17.5 &#x000b1; 2.3</td>
+                                    <td valign="top">17.1 &#x000b1; 1.4</td>
+                                    <td valign="top">0.214</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" valign="top">Respiratory adverse events
+                                        <xref rid="tb3fn2" ref-type="table-fn">b</xref>
+                                    </td>
+                                    <td valign="top"/>
+                                    <td valign="top"/>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Straining</td>
+                                    <td valign="top">6 (14.6%)</td>
+                                    <td valign="top">1 (2.5%)</td>
+                                    <td valign="top">0.002</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">&#x000a0;Coughing</td>
+                                    <td valign="top">4 (9.7%)</td>
+                                    <td valign="top">0 (0%)</td>
+                                    <td valign="top">0.001</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table-wrap-foot>
+                            <fn>
+                                <p>ETT, Endotracheal Tube; LMA, Laryngeal Mask Airway.</p>
+                            </fn>
+                        </table-wrap-foot>
+                        <table-wrap-foot>
+                            <fn id="tb3fn1">
+                                <label>a</label>
+                                <p id="notep0009">Data presented as mean (standard deviation).</p>
+                            </fn>
+                        </table-wrap-foot>
+                        <table-wrap-foot>
+                            <fn id="tb3fn2">
+                                <label>b</label>
+                                <p id="notep0010">Data presented as absolute number and percentage, n&#x000a0;(%).</p>
+                                <p id="notep0011">
+                                    <italic>p</italic> &#x0003c; 0.05 was considered as statistically significant.
+                                </p>
+                            </fn>
+                        </table-wrap-foot>
+                    </table-wrap>
+                </p>
+            </sec>
+            <sec id="sec0007">
+                <title>Secondary outcome measure</title>
+                <p id="para0025">The mean duration of the procedure was 108.5&#x000b1;21.3&#x000a0;min and was not
+                    statistically different between the groups (<italic>p</italic> &#x0003e; 0.05). The mean time to
+                    extubation, time to the neurological assessment, and time to the discharge from the INR unit to ICU
+                    were not different in either group after the procedure (<italic>p</italic> &#x0003e; 0.05) (<xref
+                            rid="tbl0003" ref-type="table">Table 3</xref>).
+                </p>
+                <p id="para0026">There was no procedure-related complication observed throughout the procedure. The
+                    patients were followed in the ICU for 14&#x02013;22&#x000a0;hours, and then were transferred to the
+                    service. All patients were discharged from the hospital at the next day.
+                </p>
+            </sec>
+        </sec>
+        <sec id="sec0008">
+            <title>Discussion</title>
+            <p id="para0027">The results of the study demonstrated that both ETT and LMA provided sufficient airway
+                security without major complications including insufficient ventilation, desaturation, laryngospasm, or
+                bronchospasm. Hemodynamic disturbances were manageable and did not result in further complications.
+                Recovery times were also similar that allowed rapid neurological assessment in the INR unit. The
+                incidence of hemodynamic disturbance and respiratory adverse events were lower in the LMA group.
+                According to the results, it can be stated that LMA may be safely used in patients who underwent
+                endovascular treatments for cerebrovascular arteriovenous malformation under general anesthesia.
+            </p>
+            <p id="para0028">The anesthetic principles for EVT were developed mainly from intracranial neurosurgical
+                anesthesia.<xref rid="bib0003" ref-type="bibr">3</xref>, <xref rid="bib0004" ref-type="bibr">4</xref>, <xref
+                        rid="bib0005" ref-type="bibr">5
+                </xref> Endotracheal intubation is used to ensure the airway security in the intracranial surgeries
+                because the patients are placed in the sitting, prone or lateral decubitus positions and the patient's
+                head is sometimes fixed using a skull clamp head frame. The duration of the surgery lasts up to&#x000a0;3&#x02013;5&#x000a0;hours
+                and also painful.<xref rid="bib0004" ref-type="bibr">4</xref>, <xref rid="bib0005" ref-type="bibr">
+                    5</xref>,
+                <xref rid="bib0006" ref-type="bibr">6</xref>
+            </p>
+            <p id="para0029">We have been also using routinely endotracheal intubation in general anesthesia for EVTs as
+                recommended in the literature.<xref rid="bib0003" ref-type="bibr">3</xref>, <xref rid="bib0004"
+                                                                                                  ref-type="bibr">
+                    4</xref>, <xref rid="bib0005" ref-type="bibr">5</xref>, <xref rid="bib0006" ref-type="bibr">6</xref>, <xref
+                        rid="bib0007" ref-type="bibr">7</xref>, <xref rid="bib0008" ref-type="bibr">8</xref>, <xref
+                        rid="bib0009" ref-type="bibr">9
+                </xref> But, in our practice, the elevation of arterial blood pressure at intubation period induced by
+                direct laryngoscopy, and cough and straining at the extubation periods were criticized by the
+                neuroradiologist due to the risk for the development of an intracerebral hemorrhage, which is one of the
+                leading factors causing morbidity and mortality.
+            </p>
+            <p id="para0030">As in neurosurgery, the maintenance of hemodynamic stability is very important in EVT. The
+                rate of bleeding during AVM embolization has been reported to be&#x000a0;1.4%, and it has been found
+                that the lack of hypotension is one of the clinical predictors of hemorrhage.
+                <xref rid="bib0021" ref-type="bibr">
+                    <sup>21</sup>
+                </xref>
+                <sup>,</sup>
+                <xref rid="bib0022" ref-type="bibr">
+                    <sup>22</sup>
+                </xref>
+                Anesthesiologists are responsible for establishing preventive measures against hemodynamic disturbances
+                such as minimizing airway reflexes during airway management, manipulating ABP with hypotensive agents as
+                necessary, and maintaining the anesthetic depth in a stable manner.
+                <xref rid="bib0009" ref-type="bibr">
+                    <sup>9</sup>
+                </xref>
+                However, our efforts including intravenous lidocaine boluses to reduce airway reflexes were not always
+                successful.
+            </p>
+            <p id="para0031">This issue directed us to investigate the availability of supraglottic airway devices in
+                EVTs, which has been widely used as an alternative for endotracheal intubation in many other surgeries
+                under general anesthesia. It was reported that hemodynamic disturbances were found to be significantly
+                reduced with classical LMA than ETT during airway management at intubation and extubation periods.
+                <xref rid="bib0023" ref-type="bibr">
+                    <sup>23</sup>
+                </xref>
+                <sup>,</sup>
+                <xref rid="bib0024" ref-type="bibr">
+                    <sup>24</sup>
+                </xref>
+                Also, a systematic review and meta-analysis revealed that the incidence of laryngospasm, cough at
+                removal, dysphagia or dysphonia, sore throat, and hoarseness was reduced with supraglottic airway
+                devices.
+                <xref rid="bib0025" ref-type="bibr">
+                    <sup>25</sup>
+                </xref>
+            </p>
+            <p id="para0032">However, only one report existed in the literature which reported the use of LMA in three
+                patients who underwent coiling of unruptured cerebral aneurysms under general anesthesia.
+                <xref rid="bib0011" ref-type="bibr">
+                    <sup>11</sup>
+                </xref>
+                It was concluded that LMA may be a safe alternative by avoiding the hemodynamic effects of tracheal
+                intubation.
+            </p>
+            <p id="para0033">Upon this, it was decided to try using LMA in the EVT of cerebrovascular aneurysms except
+                in conditions where the use of LMA were contraindicated including history of obesity, chronic
+                obstructive pulmonary disease, low pulmonary compliance, hiatal hernia, gastroparesis, inability to open
+                the mouth, and an infection or pathologic abnormality in the oropharyngeal cavity.
+                <xref rid="bib0026" ref-type="bibr">
+                    <sup>26</sup>
+                </xref>
+                As EVTs differ from the surgery, anesthetic requirements vary across both procedures at some points. The
+                patients are in a supine position, the position of the head is neutral, and a skull clamp is not
+                necessary to fix the head during the EVT procedure. The C-arm of the fluoroscope is turned around the
+                head without a contact with patient's body. Those provide easy access to the airway during the
+                procedure. It is reported that EVTs last up to&#x000a0;120&#x000a0;minutes, which is much shorter and
+                also painless compared to the surgery.
+                <xref rid="bib0002" ref-type="bibr">
+                    <sup>2</sup>
+                </xref>
+                Taking in the account all these factors, the conditions might not pose an additional risk to use the LMA
+                in the EVT procedures.
+            </p>
+            <p id="para0034">The use of LMA was started first in EVTs of cerebrovascular aneurysm. After two years, it
+                was continued in cerebrovascular AVM because there were no complications observed in the airway security
+                related to the LMA and hemodynamic stability was established without an intervention.
+            </p>
+            <p id="para0035">There are few reports in the literature regarding the use of LMA and all were performed in
+                the EVTs for cerebrovascular aneurysms. In a study, it was concluded that LMA ensured suitable
+                conditions based on an analysis of cardiovascular stability in&#x000a0;26&#x000a0;patients.
+                <xref rid="bib0012" ref-type="bibr">
+                    <sup>12</sup>
+                </xref>
+                LMA was used in another study which investigated the effect of dexmedetomidine on the recovery
+                characteristics in&#x000a0;102&#x000a0;patients. It was reported that all patients were ventilated
+                through LMA without a respiratory complication.
+                <xref rid="bib0013" ref-type="bibr">
+                    <sup>13</sup>
+                </xref>
+                A retrospective study was conducted by the authors of this study in patients who underwent EVT during an
+                eight-years period. It was concluded that LMA may be routinely used due to airway securing without
+                respiratory complications and hemodynamic disturbance.
+                <xref rid="bib0014" ref-type="bibr">
+                    <sup>14</sup>
+                </xref>
+            </p>
+            <p id="para0036">A rapid and smooth recovery is also important for assessing of the neurological status and
+                early diagnosis of the post-procedural complications including bleeding, vasospasm, stroke, and focal
+                deficits.
+                <xref rid="bib0006" ref-type="bibr">
+                    <sup>6</sup>
+                </xref>
+                <sup>,</sup>
+                <xref rid="bib0007" ref-type="bibr">
+                    <sup>7</sup>
+                </xref>
+                In our study, the recovery and discharge times were similar in both groups. This is attributable to use
+                propofol, fentanyl, and rocuronium, an intermedium acting neuromuscular blocking agent for the induction
+                of anesthesia and a TIVA technique based on the propofol and remifentanil infusions for the maintenance.
+                These anesthetic drugs provide stable hemodynamics and rapid recovery from anesthesia. This result is
+                consistent with a study which found similar recovery and discharge times using
+                remifentanil-propofolbased TIVA and an intermedium acting neuromuscular blocking drug (mivacurium) in
+                patients undergoing elective orthopedic surgery with LMA or TT.
+                <xref rid="bib0027" ref-type="bibr">
+                    <sup>27</sup>
+                </xref>
+            </p>
+            <p id="para0037">The current study has several limitations. First, the retrospective nature of the study
+                might have resulted in bias that affected the selection of the control group. Additionally, exposure to
+                the interventions and outcomes may be difficult to control in both groups. To prevent this disadvantage,
+                we used the same inclusion and exclusion criteria during the data collection period. Data were obtained
+                from multiple sources including anesthesia files, electronic medical records, and ICU charts to reduce
+                recall bias. A single neuroradiologist and the same anesthesiologists performed all interventions. The
+                patient files with insufficient data were excluded. It should be noted that the study aimed to evaluate
+                the data of the anesthetic experience with LMA and ETT focusing on the safety profile in EVT for
+                cerebrovascular AVM which is a relatively new procedure for the anesthetic management. Therefore, we
+                think that prospective and randomized studies are required to prove the availability of modern airway
+                devices in this evolving area. Another limitation was the lack of the use of bispectral index and
+                neuromuscular junction monitoring. They would provide real-time data about the depth of the anesthesia.
+                <xref rid="bib0028" ref-type="bibr">
+                    <sup>28</sup>
+                </xref>
+                <sup>,</sup>
+                <xref rid="bib0029" ref-type="bibr">
+                    <sup>29</sup>
+                </xref>
+            </p>
+            <p id="para0038">It is concluded that LMA may be used as an alternative to endotracheal tube in the routine
+                anesthetic practice for endovascular treatment of cerebral AVMs. LMA provided airway security as safe as
+                ETT with attenuation of hemodynamic disturbance and minimal adverse respiratory events.
+            </p>
+        </sec>
+        <sec id="sec0009">
+            <title>Author's contributions</title>
+            <p id="para0040">MAS and M&#x000d6;&#x000d6; conducted the study, collected the data, and contributed the
+                writing of the manuscript. M&#x000d6;&#x000d6; and COC analyzed the study results and contributed the
+                revision of manuscript. MBE and BA assisted in analysis data and contributed the writing of the
+                manuscript. MAS designed, directed, and reviewed the study.
+            </p>
+        </sec>
+        <sec id="sec0010">
+            <title>Funding</title>
+            <p id="para0041">This research did not receive any specific grant from funding agencies in the public,
+                commercial, or not-for-profit sectors.
+            </p>
+        </sec>
+        <sec sec-type="COI-statement">
+            <title>Conflicts of interest</title>
+            <p id="para0042">The authors declare no conflicts of interest.</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list id="cebibl1">
+            <title>References</title>
+            <ref id="bib0001">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref0001">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Plasencia</surname>
+                            <given-names>AR</given-names>
+                        </name>
+                        <name>
+                            <surname>Santillan</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Embolization and radiosurgery for arteriovenous malformations</article-title>
+                    <source>Surg Neurol Int</source>
+                    <volume>3</volume>
+                    <issue>Suppl 2</issue>
+                    <year>2012</year>
+                    <fpage>S90</fpage>
+                    <lpage>S104</lpage>
+                    <pub-id pub-id-type="pmid">22826821</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0002">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref0002">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Van Rooij</surname>
+                            <given-names>WJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Sluzewski</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name>
+                            <surname>Beute</surname>
+                            <given-names>GN.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Brain AVM embolization with Onyx</article-title>
+                    <source>AJNR Am J Neuroradiol</source>
+                    <volume>28</volume>
+                    <year>2007</year>
+                    <fpage>172</fpage>
+                    <lpage>177</lpage>
+                    <comment>discussion 178</comment>
+                    <pub-id pub-id-type="pmid">17213451</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0003">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sbref0003">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Dorairaj</surname>
+                            <given-names>IL</given-names>
+                        </name>
+                        <name>
+                            <surname>Hancock</surname>
+                            <given-names>SM.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Anaesthesia for interventional neuroradiology</article-title>
+                    <source>Anaesth Crit Care Pain Med</source>
+                    <volume>8</volume>
+                    <year>2008</year>
+                    <fpage>86</fpage>
+                    <lpage>89</lpage>
+                </element-citation>
+            </ref>
+            <ref id="bib0004">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sbref0004">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Schulenburg</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <name>
+                            <surname>Matta</surname>
+                            <given-names>B.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Anaesthesia for interventional neuroradiology</article-title>
+                    <source>Curr Opin Anaesthesiol</source>
+                    <volume>24</volume>
+                    <year>2011</year>
+                    <fpage>426</fpage>
+                    <lpage>432</lpage>
+                    <pub-id pub-id-type="pmid">21577099</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0005">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sbref0005">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Berlis</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Endovascular interventions in neuroradiology: new aspects</article-title>
+                    <source>Anaesthesist</source>
+                    <volume>62</volume>
+                    <year>2013</year>
+                    <fpage>692</fpage>
+                    <lpage>706</lpage>
+                    <pub-id pub-id-type="pmid">23989963</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0006">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref0006">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Hayman</surname>
+                            <given-names>MW</given-names>
+                        </name>
+                        <name>
+                            <surname>Paleologos</surname>
+                            <given-names>MS</given-names>
+                        </name>
+                        <name>
+                            <surname>Kam</surname>
+                            <given-names>PC.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Interventional neuroradiological procedures &#x02013; a review for anaesthetists
+                    </article-title>
+                    <source>Anaesth Intensive Care</source>
+                    <volume>41</volume>
+                    <year>2013</year>
+                    <fpage>184</fpage>
+                    <lpage>201</lpage>
+                    <pub-id pub-id-type="pmid">23530785</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0007">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sbref0007">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Castioni</surname>
+                            <given-names>CA</given-names>
+                        </name>
+                        <name>
+                            <surname>Amadori</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Bilotta</surname>
+                            <given-names>F</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Italian COnsensus in neuroradiological anesthesia (ICONA)</article-title>
+                    <source>Minerva Anestesiol</source>
+                    <volume>83</volume>
+                    <year>2017</year>
+                    <fpage>956</fpage>
+                    <lpage>971</lpage>
+                    <pub-id pub-id-type="pmid">28492296</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0008">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sbref0008">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Guercio</surname>
+                            <given-names>JR</given-names>
+                        </name>
+                        <name>
+                            <surname>Nimjee</surname>
+                            <given-names>SM</given-names>
+                        </name>
+                        <name>
+                            <surname>James</surname>
+                            <given-names>ML</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Anesthesia for interventional neuroradiology</article-title>
+                    <source>Int Anesthesiol Clin</source>
+                    <volume>53</volume>
+                    <year>2015</year>
+                    <fpage>87</fpage>
+                    <lpage>106</lpage>
+                    <pub-id pub-id-type="pmid">25551744</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0009">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref0009">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Patel</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Reddy</surname>
+                            <given-names>U.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Anaesthesia for interventional neuroradiology</article-title>
+                    <source>BJA Education</source>
+                    <volume>16</volume>
+                    <year>2016</year>
+                    <fpage>147</fpage>
+                    <lpage>152</lpage>
+                </element-citation>
+            </ref>
+            <ref id="bib0010">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref0010">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Kang</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <name>
+                            <surname>Lee</surname>
+                            <given-names>KH</given-names>
+                        </name>
+                        <name>
+                            <surname>Park</surname>
+                            <given-names>JH.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Comparison of two methods of anesthesia using patient state index: propofol versus
+                        sevoflurane during interventional neuroradiology procedure
+                    </article-title>
+                    <source>Anesth Pain Med</source>
+                    <volume>9</volume>
+                    <year>2019</year>
+                    <fpage>e87518</fpage>
+                    <pub-id pub-id-type="pmid">31341825</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0011">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sbref0011">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Golshevsky</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Cormack</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Laryngeal mask airway device during coiling of unruptured cerebral aneurysms
+                    </article-title>
+                    <source>J Clin Neurosci</source>
+                    <volume>16</volume>
+                    <year>2009</year>
+                    <fpage>104</fpage>
+                    <lpage>105</lpage>
+                    <pub-id pub-id-type="pmid">19013811</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0012">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref0012">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Karwacki</surname>
+                            <given-names>Z</given-names>
+                        </name>
+                        <name>
+                            <surname>Witkowska</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name>
+                            <surname>Niewiadomski</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Anaesthetic management for endovascular treatment of unruptured intracranial
+                        aneurysms
+                    </article-title>
+                    <source>Anaesthesiol Intensive Ther</source>
+                    <volume>45</volume>
+                    <year>2013</year>
+                    <fpage>145</fpage>
+                    <lpage>148</lpage>
+                    <pub-id pub-id-type="pmid">24092510</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0013">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sbref0013">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Wen-Fei</surname>
+                            <given-names>T</given-names>
+                        </name>
+                        <name>
+                            <surname>Yan-Hua</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Hong</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Sevoflurane, laryngeal mask airway and single-dose dexmedetomidine: a better choice
+                        for patients undergoing endovascular coil embolization
+                    </article-title>
+                    <source>J Anesth Perioper Med</source>
+                    <volume>2</volume>
+                    <year>2015</year>
+                    <fpage>153</fpage>
+                    <lpage>157</lpage>
+                </element-citation>
+            </ref>
+            <ref id="bib0014">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref0014">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ozhan</surname>
+                            <given-names>M&#x000d6;</given-names>
+                        </name>
+                        <name>
+                            <surname>Eskin</surname>
+                            <given-names>MB</given-names>
+                        </name>
+                        <name>
+                            <surname>Atik</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Laryngeal mask airway for general anesthesia in interventional neuroradiology
+                        procedures
+                    </article-title>
+                    <source>Saudi Med J</source>
+                    <volume>40</volume>
+                    <year>2019</year>
+                    <fpage>463</fpage>
+                    <lpage>468</lpage>
+                    <pub-id pub-id-type="pmid">31056623</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0015">
+                <label>15</label>
+                <mixed-citation publication-type="other" id="sbref0015">Strengthening the reporting of observational
+                    studies in epidemiology. Available at: <ext-link ext-link-type="uri"
+                                                                     xlink:href="https://strobe-statement.org/index.php?id=strobe-home"
+                                                                     id="interref0002">
+                        https://strobe-statement.org/index.php?id=strobe-home</ext-link>.
+                </mixed-citation>
+            </ref>
+            <ref id="bib0016">
+                <label>16</label>
+                <mixed-citation publication-type="other" id="sbref0016">Enhancing the quality and transparency of health
+                    research. Available at: <ext-link ext-link-type="uri"
+                                                      xlink:href="https://www.equator-network.org/reporting-guidelines/"
+                                                      id="interref0003">
+                        https://www.equator-network.org/reporting-guidelines/</ext-link>.
+                </mixed-citation>
+            </ref>
+            <ref id="bib0017">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sbref0017">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Vandenbroucke</surname>
+                            <given-names>JP</given-names>
+                        </name>
+                        <name>
+                            <surname>von Elm</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <name>
+                            <surname>Altman</surname>
+                            <given-names>DG</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Strengthening the Reporting of Observational Studies in Epidemiology (STROBE):
+                        explanation and elaboration
+                    </article-title>
+                    <source>Int J Surg</source>
+                    <volume>12</volume>
+                    <year>2014</year>
+                    <fpage>1500</fpage>
+                    <lpage>1524</lpage>
+                    <pub-id pub-id-type="pmid">25046751</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0018">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref0018">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Brain</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Proper technique for insertion of the laryngeal mask</article-title>
+                    <source>Anesthesiology</source>
+                    <volume>73</volume>
+                    <year>1990</year>
+                    <fpage>1053</fpage>
+                    <lpage>1054</lpage>
+                </element-citation>
+            </ref>
+            <ref id="bib0019">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref0019">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Cai</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Zeng</surname>
+                            <given-names>D.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Sample size/power calculation for case-cohort studies</article-title>
+                    <source>Biometrics</source>
+                    <volume>60</volume>
+                    <year>2004</year>
+                    <fpage>1015</fpage>
+                    <lpage>1024</lpage>
+                    <pub-id pub-id-type="pmid">15606422</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0020">
+                <label>20</label>
+                <element-citation publication-type="book" id="sbref0020">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Altman</surname>
+                            <given-names>DG.</given-names>
+                        </name>
+                    </person-group>
+                    <part-title>Practical statistics for medical research</part-title>
+                    <year>1991</year>
+                    <publisher-name>Chapman &#x00026; Hall/CRC</publisher-name>
+                </element-citation>
+            </ref>
+            <ref id="bib0021">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sbref0021">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Jordan</surname>
+                            <given-names>JA</given-names>
+                        </name>
+                        <name>
+                            <surname>Libre</surname>
+                            <given-names>JC</given-names>
+                        </name>
+                        <name>
+                            <surname>V&#x000e1;zquez</surname>
+                            <given-names>F</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Predictors of hemorrhagic complications from endovascular treatment of cerebral
+                        arteriovenous malformations
+                    </article-title>
+                    <source>Interv Neuroradiol</source>
+                    <volume>20</volume>
+                    <year>2014</year>
+                    <fpage>74</fpage>
+                    <lpage>82</lpage>
+                    <pub-id pub-id-type="pmid">24556303</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0022">
+                <label>22</label>
+                <element-citation publication-type="journal" id="sbref0022">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Lv</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name>
+                            <surname>Wu</surname>
+                            <given-names>Z</given-names>
+                        </name>
+                        <name>
+                            <surname>Jiang</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Complication risk of endovascular embolization for cerebral arteriovenous
+                        malformation
+                    </article-title>
+                    <source>Eur J Radiol</source>
+                    <volume>80</volume>
+                    <year>2011</year>
+                    <fpage>776</fpage>
+                    <lpage>779</lpage>
+                    <pub-id pub-id-type="pmid">20950972</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0023">
+                <label>23</label>
+                <element-citation publication-type="journal" id="sbref0023">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Jarineshin</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name>
+                            <surname>Kashani</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Vatankhah</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Better hemodynamic profile of laryngeal mask airway insertion compared to
+                        laryngoscopy and tracheal intubation
+                    </article-title>
+                    <source>Iran Red Crescent Med J</source>
+                    <volume>17</volume>
+                    <year>2015</year>
+                    <fpage>e28615</fpage>
+                    <pub-id pub-id-type="pmid">26430529</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0024">
+                <label>24</label>
+                <element-citation publication-type="journal" id="sbref0024">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Balasubramanian</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Menaha</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Evaluation of hemodynamic response between laryngeal mask airway and endotracheal
+                        tube extubation with general anaesthesia
+                    </article-title>
+                    <source>J Anesth Clin Res</source>
+                    <volume>8</volume>
+                    <year>2017</year>
+                    <object-id pub-id-type="publisher-id">1000791</object-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0025">
+                <label>25</label>
+                <element-citation publication-type="journal" id="sbref0025">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Park</surname>
+                            <given-names>SK</given-names>
+                        </name>
+                        <name>
+                            <surname>Ko</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name>
+                            <surname>Choi</surname>
+                            <given-names>GJ</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Comparison between supraglottic airway devices and endotracheal tubes in patients
+                        undergoing laparoscopic surgery: a systematic review and meta-analysis
+                    </article-title>
+                    <source>Medicine (Baltimore)</source>
+                    <volume>95</volume>
+                    <year>2016</year>
+                    <fpage>e4598</fpage>
+                    <pub-id pub-id-type="pmid">27537593</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0026">
+                <label>26</label>
+                <element-citation publication-type="journal" id="sbref0026">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Jannu</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Shekar</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Balakrishna</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Advantages, disadvantages, indications, contraindications and surgical technique of
+                        laryngeal airway mask
+                    </article-title>
+                    <source>Arch Craniofac Surg</source>
+                    <volume>18</volume>
+                    <year>2017</year>
+                    <fpage>223</fpage>
+                    <lpage>229</lpage>
+                    <pub-id pub-id-type="pmid">29349045</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0027">
+                <label>27</label>
+                <element-citation publication-type="journal" id="sbref0027">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Hartmann</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Banzhaf</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Junger</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Laryngeal mask airway versus endotracheal tube for outpatient surgery: analysis of
+                        anesthesia-controlled time
+                    </article-title>
+                    <source>J Clin Anesth</source>
+                    <volume>16</volume>
+                    <year>2004</year>
+                    <fpage>195</fpage>
+                    <lpage>199</lpage>
+                    <pub-id pub-id-type="pmid">15217659</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0028">
+                <label>28</label>
+                <element-citation publication-type="journal" id="sbref0028">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Oliveira</surname>
+                            <given-names>CR</given-names>
+                        </name>
+                        <name>
+                            <surname>Bernardo</surname>
+                            <given-names>WM</given-names>
+                        </name>
+                        <name>
+                            <surname>Nunes</surname>
+                            <given-names>VM.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Benefit of general anesthesia monitored by bispectral index compared with monitoring
+                        guided only by clinical parameters. Systematic review and meta-analysis
+                    </article-title>
+                    <source>Braz J Anesthesiol</source>
+                    <volume>67</volume>
+                    <year>2017</year>
+                    <fpage>72</fpage>
+                    <lpage>84</lpage>
+                    <pub-id pub-id-type="pmid">28017174</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="bib0029">
+                <label>29</label>
+                <element-citation publication-type="journal" id="sbref0029">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Naguib</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name>
+                            <surname>Brull</surname>
+                            <given-names>SJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Kopman</surname>
+                            <given-names>AF</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>Consensus statement on perioperative use of neuromuscular monitoring</article-title>
+                    <source>Anesth Analg</source>
+                    <volume>127</volume>
+                    <year>2018</year>
+                    <fpage>71</fpage>
+                    <lpage>80</lpage>
+                    <pub-id pub-id-type="pmid">29200077</pub-id>
+                </element-citation>
+            </ref>
+        </ref-list>
+        <sec id="sec0012" sec-type="supplementary-material">
+            <label>Appendix</label>
+            <title>Supplementary materials</title>
+            <p id="para0039a">
+                <supplementary-material content-type="local-data" id="ecom0001">
+                    <media xlink:href="mmc1.doc">
+                        <alt-text>Image, application 1</alt-text>
+                    </media>
+                </supplementary-material>
+            </p>
+        </sec>
+        <ack id="ack0001">
+            <title>Acknowledgements</title>
+            <p id="para0043">The authors thanks to Volkan T&#x000fc;rkmen for his professional expertise in
+                biostatistics.
+            </p>
+        </ack>
+        <fn-group>
+            <fn id="sec0011" fn-type="supplementary-material">
+                <p id="para0005a">Supplementary material associated with this article can be found in the online version
+                    at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjane.2021.12.004"
+                                 id="interref0001">doi:10.1016/j.bjane.2021.12.004</ext-link>.
+                </p>
+            </fn>
+        </fn-group>
+    </back>
+</article>

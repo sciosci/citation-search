@@ -87,9 +87,9 @@ cores = 10
 
 while curr_idx < end:
     paths = []
-    for i in range(curr_idx, curr_idx + 200):
-        if curr_idx < end:
-            file = pm_ids[curr_idx]
+    for idx in range(curr_idx, curr_idx + 200):
+        if idx < end:
+            file = pm_ids[idx]
             final_path = f'{peta_lib_path}/{file}'
             paths.append(final_path)
     with multiprocessing.Pool(processes=cores) as pool:

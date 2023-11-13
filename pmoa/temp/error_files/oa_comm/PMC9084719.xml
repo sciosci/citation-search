@@ -1,0 +1,56 @@
+<!DOCTYPE article
+        PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN"
+        "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3"
+         xml:lang="en" article-type="other"><?properties open_access?>
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+        <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">South Med Rec</journal-id>
+            <journal-id journal-id-type="pmc">southmedrec</journal-id>
+            <journal-title-group>
+                <journal-title>The Southern Medical Record</journal-title>
+            </journal-title-group>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="pmc">PMC9084719</article-id>
+            <article-id pub-id-type="pmc-scan">southmedrec144601-0033</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Practical Notes and Formul&#x000e6;</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Practical Notes and Formul&#x000e6;</article-title>
+            </title-group>
+            <pub-date pub-type="ppub">
+                <day>20</day>
+                <month>7</month>
+                <year>1884</year>
+            </pub-date>
+            <volume>14</volume>
+            <issue>7</issue>
+            <fpage>273</fpage>
+            <lpage>274</lpage>
+            <permissions>
+                <license>
+                    <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining"
+                                     content-type="cc0license">https://creativecommons.org/publicdomain/mark/1.0/
+                    </ali:license_ref>
+                    <license-p>This work is free of known copyright restrictions. For more information, please
+                        see <ext-link ext-link-type="uri" xlink:href="//www.ncbi.nlm.nih.gov/pmc/about/scanning/">PMC
+                            Back Issue Digitization</ext-link>.
+                    </license-p>
+                </license>
+            </permissions>
+        </article-meta>
+    </front>
+    <floats-group>
+        <graphic xlink:href="southmedrec144601-0033" id="sp1" content-type="scanned-page" xlink:role="273"
+                 position="float"/>
+        <graphic xlink:href="southmedrec144601-0034" id="sp2" content-type="scanned-page" xlink:role="274"
+                 position="float"/>
+    </floats-group>
+</article>
