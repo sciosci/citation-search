@@ -40,5 +40,14 @@ class RelevanceStore(Base):
     is_relevant = Column(Boolean)
 
 
+class MetaData(Base):
+    __tablename__ = 'metadata'
+    pmid = Column(String, primary_key=True)
+    title = Column(String)
+    # abstract = Column(String)
+    publication_year = Column(Integer)
+    cited_by_count = Column(Integer)
+
+
 # Create the table
 Base.metadata.create_all(engine)
