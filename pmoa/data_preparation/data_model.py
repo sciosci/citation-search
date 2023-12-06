@@ -40,6 +40,15 @@ class RelevanceStore(Base):
     is_relevant = Column(Boolean)
 
 
+class RelevanceStoreNew(Base):
+    __tablename__ = 'relevance_store_new'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    pmid = Column(String)
+    sentence = Column(String)
+    cited_id = Column(String)
+    relevance_score = Column(Integer)
+
+
 class MetaData(Base):
     __tablename__ = 'metadata'
     pmid = Column(String, primary_key=True)
