@@ -4,8 +4,10 @@ import logging
 import time
 from collections import defaultdict
 import psycopg2
+from psycopg2.extras import RealDictCursor
+from string import Template
 from copy import deepcopy
-from sqlalchemy import create_engine, MetaData, Table, Column, String, Boolean, insert
+from sqlalchemy import create_engine, MetaData, Table, Column, String, Integer, insert
 
 logging.basicConfig(filename='logs/create_multiple_relevance_scores.log', filemode='a',
                     format='%(name)s - %(levelname)s - %(message)s')
@@ -27,8 +29,30 @@ relevance_store = Table(
     Column('pmid', String),
     Column('sentence', String),
     Column('cited_id', String),
-    Column('relevance_score', Boolean)
+    Column('relevance_score', Integer),
+    Column('paraid', Integer),
+    Column('sentid', Integer)
+
 )
+
+
+def get_citation_context_records_with_offset(pmid: str):
+    query_for_pubmed_records = Template(
+        '''SELECT pmid, context_data,citations_list
+            FROM citation_context
+            WHERE pmid >= '$pmid'
+            order by pmid
+            LIMIT 3000;
+        '''
+    )
+    start = time.perf_counter()
+    with psycopg2.connect(**conn_params) as conn:
+        with conn.cursor(cursor_factory=RealDictCursor) as cursor:
+            cursor.execute(query_for_pubmed_records.substitute(pmid=pmid))
+            records = cursor.fetchall()
+    end = time.perf_counter()
+    logging.warning(f"Successfully fetched {len(records)} citation context records in {end - start} seconds")
+    return records
 
 
 def get_all_pmids():
@@ -118,15 +142,16 @@ def create_slightly_relevant_list(perfectly_relevant_list, paragraph_pairs):
         paragraph_pairs_entries.pop(paraid)
 
         for k, v in paragraph_pairs_entries.items():
-            for cited_id in v:
-                if cited_id not in cited_ids_to_ignore:
-                    new_entry = deepcopy(entry)
-                    new_entry['cited_id'] = cited_id
-                    new_entry['relevance_score'] = 1
-                    slightly_relevant_list.append(new_entry)
+            for idx, ids in v.items():
+                for cited_id in ids:
+                    if cited_id not in cited_ids_to_ignore:
+                        new_entry = deepcopy(entry)
+                        new_entry['cited_id'] = cited_id
+                        new_entry['relevance_score'] = 1
+                        slightly_relevant_list.append(new_entry)
 
-                    # Mark current cited id as visit to prevent redundancy within the same sentence
-                    cited_ids_to_ignore.add(cited_id)
+                        # Mark current cited id as visit to prevent redundancy within the same sentence
+                        cited_ids_to_ignore.add(cited_id)
     return slightly_relevant_list
 
 
@@ -149,20 +174,46 @@ def create_irrelevant_list(perfectly_relevant_list, all_cited, all_pmids):
     return irrelevant_list
 
 
-if __name__ == '__main__':
-    with open('../../temp/pmoa_json_format_reader/sample.json', 'r') as f:
-        data = json.load(f)
-    json_raw_list = json.loads(data)
-    all_pmids = get_all_pmids()
-    filtered_list, all_cited = clean_raw_json_list(json_raw_list)
-    perfectly_relevant_list, paragraph_pairs = create_perfectly_relevant_list(filtered_list)
-    somewhat_relevant_list = create_somewhat_relevant_list(perfectly_relevant_list, paragraph_pairs)
-    slightly_relevant_list = create_slightly_relevant_list(perfectly_relevant_list, paragraph_pairs)
-    irrelevant_list = create_irrelevant_list(perfectly_relevant_list,all_cited, all_pmids)
-    final_list = []
-    final_list.extend(perfectly_relevant_list)
-    final_list.extend(somewhat_relevant_list)
-    final_list.extend(slightly_relevant_list)
-    final_list.extend(irrelevant_list)
+def insert_clean_records(clean_records: list):
+    start = time.perf_counter()
+    insert_statement = insert(relevance_store)
 
-    print(len(final_list))
+    stmt = insert_statement.values(clean_records)
+
+    # Execute the bulk upsert query
+    try:
+        with engine.begin() as connection:
+            connection.execute(stmt)
+    except Exception as e:
+        logging.warning(f"Error in ingesting {e}", exc_info=True)
+
+    end = time.perf_counter()
+    logging.warning(f"Successfully inserted {len(clean_records)} relevance store records in {end - start} seconds")
+
+
+if __name__ == '__main__':
+    all_pmids = get_all_pmids()
+    pmid_rows = [entry[0] for entry in all_pmids]
+    pmid_rows.sort()
+    offset = 0
+    total_rows = len(pmid_rows)
+
+    for idx in range(0, total_rows, 3000):
+        final_list = []
+        curr_pmid = pmid_rows[idx]
+        records = get_citation_context_records_with_offset(pmid=curr_pmid)
+        for record in records:
+            context_data = json.loads(record['context_data'])
+            citations_list = record.get('citations_list')
+            if context_data and citations_list:
+                filtered_list, all_cited = clean_raw_json_list(context_data)
+                perfectly_relevant_list, paragraph_pairs = create_perfectly_relevant_list(filtered_list)
+                somewhat_relevant_list = create_somewhat_relevant_list(perfectly_relevant_list, paragraph_pairs)
+                slightly_relevant_list = create_slightly_relevant_list(perfectly_relevant_list, paragraph_pairs)
+                irrelevant_list = create_irrelevant_list(perfectly_relevant_list, all_cited, all_pmids)
+                final_list.extend(perfectly_relevant_list)
+                final_list.extend(somewhat_relevant_list)
+                final_list.extend(slightly_relevant_list)
+                final_list.extend(irrelevant_list)
+
+        insert_clean_records(final_list)

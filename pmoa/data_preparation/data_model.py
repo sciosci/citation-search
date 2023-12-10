@@ -45,6 +45,8 @@ class RelevanceStoreNew(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     pmid = Column(String)
     sentence = Column(String)
+    sentid = Column(Integer)
+    paraid = Column(Integer)
     cited_id = Column(String)
     relevance_score = Column(Integer)
 
