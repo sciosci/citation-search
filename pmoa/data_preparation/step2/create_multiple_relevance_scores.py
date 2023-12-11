@@ -32,7 +32,6 @@ relevance_store = Table(
     Column('relevance_score', Integer),
     Column('paraid', Integer),
     Column('sentid', Integer)
-
 )
 
 
